@@ -14,5 +14,6 @@ function print_color_map() {
 }
 
 result = print_color_map();
+expect(result['1']).equals('White | Blue');
 console.log(result);
 console.log('All is well (maybe!)');
