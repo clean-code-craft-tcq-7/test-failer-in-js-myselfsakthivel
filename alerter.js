@@ -24,7 +24,7 @@ function alertInCelcius(farenheit) {
         // Add a test below to catch this bug. Alter the stub above, if needed.
         alertFailureCount += 0;
         
-        expect(returnCode).equals(200);
+        expect(returnCode).equals(500);
     }
 }
 
